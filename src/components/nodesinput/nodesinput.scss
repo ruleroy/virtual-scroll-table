@@ -1,0 +1,41 @@
+.nodes-input-container {
+  padding-top: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  max-height: 40px;
+
+  label {
+    line-height: 36px;
+  }
+
+  input[type="text"] {
+    border: none;
+    padding: 10px;
+    margin: 0px 10px;
+    margin-right: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+  }
+
+  button {
+    margin: 0 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.2); /* Green */
+    border: 1px solid #fff;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+  }
+}
